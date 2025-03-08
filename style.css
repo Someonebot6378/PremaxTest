@@ -8,7 +8,7 @@
 .hero{
 height: 100%;
 width: 100%;
-background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/2daae43f8b798bd12b2d4e40f71c6fa3.jpg);
+background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(2daae43f8b798bd12b2d4e40f71c6fa3.jpg);
 background-position: center;
 background-size: cover;
 position: absolute;
