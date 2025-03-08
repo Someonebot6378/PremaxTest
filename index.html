@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign in for premax</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <div class="hero"></div>
+        <div class="form-box">
+          <pre class="i">Premax</pre>
+           <div class="button-box"></div>
+           <div id="btn"></div>
+             <button style="color:white" type="button"id="loginBtn" class="toggle-btn" onclick="Login()">Log In</button>
+             
+              <button type="button" id="registerBtn"class="toggle-btn" onclick="register()">register</button>
+                   <div class="logo">
+         <img src="/Test/logo.jpg"
+         <div>
+         <form id="Login"class=input-group>
+           <input type="text" class="input-feild" placeholder="user Id" required>
+             <input type="password"
+             class="input-feild" placeholder="enter password" required>
+             <input type="checkbox" class="check-box"><span>Remember password</span>
+           <button type="submit" class="sbtn">Log In</button>
+         </form>
+          <form id="register" class=input-group>
+           <input type="text" class="input-feild" placeholder="user Id" required>
+           <input type="email" class="input-feild" placeholder="email Id" required>
+             <input type="password"
+             class="input-feild" placeholder="enter password" required>
+             <input type="checkbox" class="check-box"><span>I agree to the terms & conditios</span>
+           <button type="submit" class="sbtn">Register</button>
+         </form>
+         </div>
+         
+         
+         
+       </div>  
+             
+       </div>
+       
+<script>
+var x = document.getElementById("Login");
+var y = document.getElementById("register");
+var z = document.getElementById("btn");
+
+var loginBtn = document.getElementsByTagName("button")[0];
+var registerBtn = document.getElementsByTagName("button")[1];
+
+function register() {
+  x.style.left = "-231px";
+  y.style.left = "0px";
+  z.style.left = "130px";
+
+  
+  loginBtn.style.color = "black";
+  registerBtn.style.color = "white";
+}
+
+function Login() {
+  x.style.left = "0px";
+  y.style.left = "250px";
+  z.style.left = "26px";
+
+  
+  loginBtn.style.color = "white";
+  registerBtn.style.color = "black";
+}
+
+
+</script>
+     
+</body>
+<style>
+  
+  .toggle-btn {
+    position: relative;
+    bottom:31px;
+    
+  }
+    .logo {
+      height:;
+    }
+
+</style>
+</html>
